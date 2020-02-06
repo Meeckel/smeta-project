@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'RotondaC';
+  src: url("RotondaC.woff2") format('woff2');
+  src: url("RotondaC.woff") format('woff');
+  src: url("Rotondac.ttf") format('truetype');
+}

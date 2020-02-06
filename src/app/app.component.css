@@ -11,9 +11,9 @@
   margin: 0 auto;
   padding: 12px;
   box-sizing: border-box;
-  app-main-content {
-    flex: 1;
-  }
+}
+.container app-main-content {
+  flex: 1;
 }
 
 @media (max-width: 1029px) {
@@ -21,9 +21,10 @@
     background-size: 1000px;
   }
 }
-
 @media (max-width: 450px) {
   #home-page {
     background-size: 600px;
   }
 }
+
+/*# sourceMappingURL=app.component.css.map */

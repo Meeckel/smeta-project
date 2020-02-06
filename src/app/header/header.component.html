@@ -1,0 +1,12 @@
+<div class="nav-wrap">
+  <a href="#">
+    <img src="{{logoSrc}}" alt="n-logo">
+  </a>
+  <nav>
+    <a *ngFor="let linkInfo of headerNav" href="{{linkInfo.href}}">{{linkInfo.title}}</a>
+  </nav>
+  <div class="auth-btn">
+    <button class="login-btn">Вход</button>
+    <button class="register-btn">Регистрация</button>
+  </div>
+</div>
